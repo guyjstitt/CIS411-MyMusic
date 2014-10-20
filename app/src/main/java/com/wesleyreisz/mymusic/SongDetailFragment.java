@@ -1,17 +1,19 @@
 package com.wesleyreisz.mymusic;
 
-
+import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.support.v4.app.Fragment;
+
 /**
- * Created by gstitt on 10/20/14.
+ * Created by gstitt on 10/18/14.
  */
-public class MyMusicFragment extends Fragment {
+public class SongDetailFragment extends Fragment {
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        return inflater.inflate(R.layout.fragment_my_music, container, false);
+        return inflater.inflate(R.layout.fragment_song_detail, container, false);
     }
+
 }

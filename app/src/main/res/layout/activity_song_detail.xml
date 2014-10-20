@@ -7,7 +7,7 @@
     android:weightSum="1">
 
     <fragment
-        android:name="com.wesleyreisz.mymusic.MyMusicFragment"
+        android:name="com.wesleyreisz.mymusic.SongDetailFragment"
         android:layout_width="331dp"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_song_detail"
